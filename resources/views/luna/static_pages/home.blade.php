@@ -94,7 +94,7 @@
                 </div>
                 <div class="goods-num">
                     <div><p style="width: << d.proportion >>%;"></p></div>
-                    <span>{{ __('luna.goods_surplus') }}<< d.in_stock>>{{ __('luna.goods_unit') }}</span>
+                    <span><<# if(d.in_stock > 0){ >>yes,bigger than zero<<#  } else { >>no,equal to zero<<# }; >></span>
                 </div>
             </div>
         </a>

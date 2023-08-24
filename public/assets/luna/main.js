@@ -28,6 +28,10 @@
         coinbase   : coinbaseSvg,		
         vzfb       : alipaySvg,
         vwx        : weChatSvg,
+        ymq_alipay_native  : alipaySvg,
+        ymq_wechat_native  : weChatSvg,
+        ymq_alipay_h5  : alipaySvg,
+        ymq_wechat_h5  : weChatSvg,
     };
 
     let msgArea = w.clientWidth <= 768 ? ['85%'] : ['50%'];

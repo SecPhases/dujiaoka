@@ -60,4 +60,7 @@ Route::group(['prefix' => 'pay', 'namespace' => 'Pay', 'middleware' => ['dujiaok
     Route::get('binance/{payway}/{orderSN}', 'BinancePayController@gateway');
     Route::post('binance/notify_url', 'BinancePayController@notifyUrl');
 
+    // H5支付
+    Route::get('ymq/{payway}/{oid}','YmqController@gateway');
+    Route::post('ymq/notify_url','YmqController@notifyUrl');
 });
