@@ -1,3 +1,5 @@
 *
+!library/
+!library/GeoLite2-Country.mmdb
 !public/
 !.gitignore

@@ -86,7 +86,7 @@
             <div class="msg">
                 <div class="goods-name"><< d.gd_name >></div>
                 <div class="goods-price">
-                    ￥<< d.actual_price >>
+                    ￥<< d.sell_price >>
                         <<# layui.each(d.wholesale_price_arr, function(index, item){ >>
                         <div>{{ __('luna.goods_disc_1') }}<< item[0] >>{{ __('luna.goods_disc_2') }}<< item[1]
                             >>{{ __('luna.goods_disc_3') }}</div>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="goods-num">
                     <div><p style="width: << d.proportion >>%;"></p></div>
-                    <span><<# if(d.in_stock > 0){ >>yes,bigger than zero<<#  } else { >>no,equal to zero<<# }; >></span>
+                    <span><<# if(d.in_stock > 0){ >>库存充足<<#  } else { >>库存不足<<# }; >></span>
                 </div>
             </div>
         </a>
