@@ -12,10 +12,10 @@ return [
     'goods_disc_3' => '元/件',
     'goods_surplus' => '剩余',
     'goods_unit' => '件',
-    'luna.goods_sufficient' => '库存充足'
-    'luna.goods_moderate' => '库存一般'
-    'luna.goods_low' => '库存很少'
-    'luna.goods_insufficient' => '库存不足'
+    'goods_sufficient' => '库存充足',
+    'goods_moderate' => '库存一般',
+    'goods_low' => '库存很少',
+    'goods_insufficient' => '库存不足',
 
     'buy_goods_msg' => '商品详情',
     'buy_num' => '购买数量',

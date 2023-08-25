@@ -94,15 +94,7 @@
                 </div>
                 <div class="goods-num">
                     <div><p style="width: << d.proportion >>%;"></p></div>
-                    @if ($d['in_stock'] > 20)
-                    <span>{{ __('luna.goods_sufficient') }}</span>
-                    @elseif ($d['in_stock'] > 10)
-                    <span>{{ __('luna.goods_moderate') }}</span>
-                    @elseif ($d['in_stock'] > 5)
-                    <span>{{ __('luna.goods_low') }}</span>
-                    @else
-                    <span>{{ __('luna.goods_insufficient') }}</span>
-                    @endif
+                    <span><<# if(d.in_stock > 20){ >>{{ __('luna.goods_sufficient') }}<<#  } else if(d.in_stock > 10){ >>{{ __('luna.goods_moderate') }}<<#  } else if(d.in_stock > 5){ >>{{ __('luna.goods_low') }}<<#  } else { >>{{ __('luna.goods_insufficient') }}<<# }; >></span>
                 </div>
             </div>
         </a>
