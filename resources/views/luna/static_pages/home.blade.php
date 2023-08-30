@@ -94,7 +94,7 @@
                 </div>
                 <div class="goods-num">
                     <div><p style="width: << d.proportion >>%;"></p></div>
-                    <span><<# if(d.in_stock > 20){ >>{{ __('luna.goods_sufficient') }}<<#  } else if(d.in_stock > 10){ >>{{ __('luna.goods_moderate') }}<<#  } else if(d.in_stock > 0){ >>{{ __('luna.goods_low') }}<<#  } else { >>{{ __('luna.goods_insufficient') }}<<# }; >></span>
+                    <span><<# if(d.in_stock > 18){ >>{{ __('luna.goods_sufficient') }}<<#  } else if(d.in_stock > 8){ >>{{ __('luna.goods_moderate') }}<<#  } else if(d.in_stock > 0){ >>{{ __('luna.goods_low') }}<<#  } else { >>{{ __('luna.goods_insufficient') }}<<# }; >></span>
                 </div>
             </div>
         </a>

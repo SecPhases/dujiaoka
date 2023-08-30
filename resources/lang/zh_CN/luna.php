@@ -14,7 +14,7 @@ return [
     'goods_unit' => '件',
     'goods_sufficient' => '库存充足',
     'goods_moderate' => '库存一般',
-    'goods_low' => '库存很少',
+    'goods_low' => '库存较少',
     'goods_insufficient' => '库存不足',
 
     'buy_goods_msg' => '商品详情',

@@ -8,7 +8,7 @@
     z-index:-10;
     zoom: 1;
     background-color: #fff;
-    background: url(/assets/luna/img/background.png) no-repeat;
+    background: url(/assets/luna/img/background.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -810,6 +810,13 @@ input[type="number"] {
 @media (max-width: 768px) {
     body {
         background: initial;
+    }
+    .background {
+        background: url(/assets/luna/img/backgroundm.jpg) no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
     }
     .header {
         color: #fff;
